@@ -1,7 +1,7 @@
 package org.babyfish.jimmer;
 
 /**
- * When get the property value of immutable object,
+ * When get the property of immutable object,
  * if the property is not loaded, this exception will be thrown.
  */
 public class UnloadedException extends RuntimeException {
